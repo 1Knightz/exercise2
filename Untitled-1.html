@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+ <h1>Hello, welcome!</h1>
+ <h2>please enter your name</h2>
+ <input type="text" id="myText" value="Some text...">
+ <p>Click the "Try it"button to get the text in the text field.</p>
+ <button onclick="myFunction()">Try it</button>
+ <p>Welcome</p>
+ <p id="demo">I am Knight</p>
+ <script>
+ function myFunction() {
+ var x = document.getElementById("myText").value;
+ document.getElementById("demo").innerHTML = x;
+ }
+ </Script>
+</body>
+
+</html>
